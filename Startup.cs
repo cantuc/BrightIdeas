@@ -34,7 +34,7 @@ namespace BrightIdeas
         {
             if (env.IsDevelopment())
             {
-                loggerFactory.AddConsole();
+                
                 app.UseDeveloperExceptionPage();
             }
             else
