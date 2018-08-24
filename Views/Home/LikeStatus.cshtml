@@ -1,0 +1,29 @@
+<form action="logout" method="POST" style="float: right; margin-top: 10px;">
+    <input type=submit class="btn" name="logout" value="Logout">
+</form>
+<a href="/BrightIdeas" style="float: right; margin: 15px; 10px; 0px; 0px">Bright Ideas</a>
+
+<p> @ViewBag.onePost.User.Name says: </p>
+<div class="well">
+    <p>@ViewBag.onePost.Description</p>
+</div>
+
+<p>People who like this post:</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Alias</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            @foreach(var like in @ViewBag.onePost.Likes)
+            {
+                <tr>
+                    <td><a href="/users/@like.User.UserId">@like.User.Alias</a></td>
+                    <td>@like.User.Name</td>
+                </tr>
+            }
+    </tbody>
+</table>

@@ -1,0 +1,14 @@
+<form action="logout" method="POST" style="float: right; margin-top: 10px;">
+    <input type=submit class="btn" name="logout" value="Logout">
+</form>
+<a href="/BrightIdeas" style="float: right; margin: 15px; 10px; 0px; 0px">Bright Ideas</a>
+
+
+    <h3>Name: @ViewBag.oneUser.Name</h3>
+    <h3>Alias: @ViewBag.oneUser.Alias</h3>
+    <h3>Email: @ViewBag.oneUser.Email</h3>
+
+
+<hr>
+    <h4>Total Number of Posts: @ViewBag.oneUser.MyPosts.Count</h4>
+    <h4>Total Number of Likes: @ViewBag.oneUser.MyLikes.Count</h4>

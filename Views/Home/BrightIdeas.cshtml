@@ -1,0 +1,48 @@
+﻿<form action="logout" method="POST" style="float: right; margin-top: 10px;">
+    <input type=submit class="btn" name="logout" value="Logout">
+</form>
+
+    <h3>Hi @ViewBag.ActiveUser.Name</h3>
+    
+
+
+@model Post
+<form action="addPost" method="POST">
+    <div class="form-group">
+        <span asp-validation-for="Description"></span>
+        <textarea asp-for="Description" class="form-control" placeholder="Post something witty here..." rows="2" id="post"></textarea>
+        <input type="submit" name="" class="btn" value="Idea!">
+    </div>
+</form>
+
+
+@foreach(var post in @ViewBag.AllPosts)
+{
+    <p><a href="/users/@post.User.UserId">@post.User.Name</a> says: </p>
+    <div class="well">
+        <p>@post.Description</p>
+    </div>
+    @if(@ViewBag.UserId == @post.User.UserId)
+    {
+        <a href="/Delete/@post.PostId">Delete</a>
+    }
+    else
+    {
+        bool like = false;
+        @foreach(var person in post.Likes)
+        {
+            if(@ViewBag.UserId == person.UserId)
+            {
+                like = true;
+            }
+        }
+        @if(like == false)
+        {
+            <a href="/Like/@post.PostId">Like</a>
+        }
+    }
+    
+        
+    
+    <p><a href="brightideas/@post.PostId">@post.Likes.Count people</a> like this</p>
+}

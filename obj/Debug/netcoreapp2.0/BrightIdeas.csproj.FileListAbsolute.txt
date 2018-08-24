@@ -1,0 +1,11 @@
+C:\Users\Carlos\Documents\Coding_Dojo\c#\exams\BrightIdeas\bin\Debug\netcoreapp2.0\BrightIdeas.deps.json
+C:\Users\Carlos\Documents\Coding_Dojo\c#\exams\BrightIdeas\bin\Debug\netcoreapp2.0\BrightIdeas.runtimeconfig.json
+C:\Users\Carlos\Documents\Coding_Dojo\c#\exams\BrightIdeas\bin\Debug\netcoreapp2.0\BrightIdeas.runtimeconfig.dev.json
+C:\Users\Carlos\Documents\Coding_Dojo\c#\exams\BrightIdeas\bin\Debug\netcoreapp2.0\BrightIdeas.dll
+C:\Users\Carlos\Documents\Coding_Dojo\c#\exams\BrightIdeas\bin\Debug\netcoreapp2.0\BrightIdeas.pdb
+C:\Users\Carlos\Documents\Coding_Dojo\c#\exams\BrightIdeas\obj\Debug\netcoreapp2.0\BrightIdeas.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Coding_Dojo\c#\exams\BrightIdeas\obj\Debug\netcoreapp2.0\BrightIdeas.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Documents\Coding_Dojo\c#\exams\BrightIdeas\obj\Debug\netcoreapp2.0\BrightIdeas.AssemblyInfoInputs.cache
+C:\Users\Carlos\Documents\Coding_Dojo\c#\exams\BrightIdeas\obj\Debug\netcoreapp2.0\BrightIdeas.AssemblyInfo.cs
+C:\Users\Carlos\Documents\Coding_Dojo\c#\exams\BrightIdeas\obj\Debug\netcoreapp2.0\BrightIdeas.dll
+C:\Users\Carlos\Documents\Coding_Dojo\c#\exams\BrightIdeas\obj\Debug\netcoreapp2.0\BrightIdeas.pdb
